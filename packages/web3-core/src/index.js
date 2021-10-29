@@ -22,7 +22,7 @@
 
 import requestManager from "https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-requestmanager/src/index.js";
 
-import extend from "./extend";
+import extend from "./extend.js";
 
 const packageInit = (pkg, args) => {
     args = Array.prototype.slice.call(args);
