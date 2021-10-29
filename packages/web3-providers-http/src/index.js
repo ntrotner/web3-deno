@@ -22,7 +22,7 @@
  * @date 2015
  */
 
-import {errors} from 'web3-core-helpers';
+import {errors} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 
 import {XMLHttpRequest as XHR2} from 'https://jspm.dev/xhr2-cookies'; // jshint ignore: line
 import http from 'https://jspm.dev/http';

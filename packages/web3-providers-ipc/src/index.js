@@ -22,7 +22,7 @@
 
 "use strict";
 
-import {errors} from 'web3-core-helpers';
+import {errors} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 import oboe from 'https://jspm.dev/oboe';
 
 

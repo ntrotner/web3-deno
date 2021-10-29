@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import { formatters } from 'web3-core-helpers';
+import { formatters } from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 
 // $ExpectType number
 formatters.outputBigNumberFormatter(100);

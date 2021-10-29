@@ -22,18 +22,18 @@
 
 "use strict";
 
-import core from 'web3-core';
-import helpers from 'web3-core-helpers';
-import {subscriptions as Subscriptions} from 'web3-core-subscriptions';
-import Method from 'web3-core-method';
-import utils from 'web3-utils';
-import Net from 'web3-net';
-import ENS from 'web3-eth-ens';
-import Personal from 'web3-eth-personal';
-import BaseContract from 'web3-eth-contract';
-import Iban from 'web3-eth-iban';
-import Accounts from 'web3-eth-accounts';
-import abi from 'web3-eth-abi';
+import core from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core/src/index.js';
+import helpers from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
+import {subscriptions as Subscriptions} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-subscriptions/src/index.js';
+import Method from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-method/src/index.js';
+import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
+import Net from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-net/src/index.js';
+import ENS from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth-ens/src/index.js';
+import Personal from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth-personal/src/index.js';
+import BaseContract from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth-contract/src/index.js';
+import Iban from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth-iban/src/index.js';
+import Accounts from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth-accounts/src/index.js';
+import abi from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth-abi/src/index.js';
 import getNetworkType from './getNetworkType.js';
 var formatter = helpers.formatters;
 

@@ -24,7 +24,7 @@
 
 import EventEmitter from 'https://jspm.dev/eventemitter3';
 import helpers from './helpers.js';
-import {errors} from 'web3-core-helpers';
+import {errors} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 import {w3cwebsocket as Ws} from 'https://jspm.dev/websocket';
 
 /**

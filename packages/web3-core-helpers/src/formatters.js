@@ -23,8 +23,8 @@
 
 "use strict";
 
-import utils from 'web3-utils';
-import Iban from 'web3-eth-iban';
+import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
+import Iban from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth-iban/src/index.js';
 
 
 /**

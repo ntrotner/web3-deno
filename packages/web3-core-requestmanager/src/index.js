@@ -21,7 +21,7 @@
 
 
 import {callbackify} from 'https://deno.land/std@0.63.0/node/util.ts';
-import {errors} from 'web3-core-helpers';
+import {errors} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 import Jsonrpc from './jsonrpc.js';
 import BatchManager from './batch.js';
 import givenProvider from './givenProvider.js';
@@ -49,9 +49,9 @@ var RequestManager = function RequestManager(provider, net) {
 RequestManager.givenProvider = givenProvider;
 
 RequestManager.providers = {
-    WebsocketProvider: require('web3-providers-ws'),
-    HttpProvider: require('web3-providers-http'),
-    IpcProvider: require('web3-providers-ipc')
+    WebsocketProvider: require('https://github.com/ntrotner/web3-deno/raw/main/packages/web3-providers-ws/src/index.js'),
+    HttpProvider: require('https://github.com/ntrotner/web3-deno/raw/main/packages/web3-providers-http/src/index.js'),
+    IpcProvider: require('https://github.com/ntrotner/web3-deno/raw/main/packages/web3-providers-ipc/src/index.js')
 };
 
 

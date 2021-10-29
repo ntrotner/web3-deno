@@ -21,8 +21,8 @@
 "use strict";
 
 import config from './config';
-import {formatters} from 'web3-core-helpers';
-import utils from 'web3-utils';
+import {formatters} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
+import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
 import Registry from './contracts/Registry';
 import ResolverMethodHandler from './lib/ResolverMethodHandler';
 import contenthash from './lib/contentHash';

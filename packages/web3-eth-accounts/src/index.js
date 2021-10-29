@@ -22,14 +22,14 @@
 
 'use strict';
 
-import core from 'web3-core';
-import Method from 'web3-core-method';
+import core from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core/src/index.js';
+import Method from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-method/src/index.js';
 import Account from 'https://jspm.dev/eth-lib/lib/account';
 var cryp = (typeof global === 'undefined') ? require('https://jspm.dev/crypto-browserify') : require('crypto');
 import scrypt from 'https://jspm.dev/scrypt-js';
 import uuid from 'https://jspm.dev/uuid';
-import utils from 'web3-utils';
-import helpers from 'web3-core-helpers';
+import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
+import helpers from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 import {TransactionFactory} from 'https://jspm.dev/@ethereumjs/tx';
 import Common from 'https://jspm.dev/@ethereumjs/common';
 import {Hardfork as HardForks} from 'https://jspm.dev/@ethereumjs/common';

@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import { AbiCoder } from 'web3-eth-abi';
+import { AbiCoder } from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth-abi/src/index.js';
 
 const abiCoder = new AbiCoder();
 

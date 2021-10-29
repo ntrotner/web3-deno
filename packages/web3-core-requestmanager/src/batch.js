@@ -23,7 +23,7 @@
 "use strict";
 
 import Jsonrpc from './jsonrpc';
-import {errors} from 'web3-core-helpers';
+import {errors} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 
 var Batch = function (requestManager) {
     this.requestManager = requestManager;

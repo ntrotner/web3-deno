@@ -19,7 +19,7 @@
  *
  * To initialize a contract use:
  *
- *  var Contract = require('web3-eth-contract');
+ *  var Contract = require('https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth-contract/src/index.js');
  *  Contract.setProvider('ws://localhost:8546');
  *  var contract = new Contract(abi, address, ...);
  *
@@ -30,14 +30,14 @@
 
 "use strict";
 
-import core from 'web3-core';
-import Method from 'web3-core-method';
-import utils from 'web3-utils';
-import {subscription as Subscription} from 'web3-core-subscriptions';
-import {formatters} from 'web3-core-helpers';
-import {errors} from 'web3-core-helpers';
-import promiEvent from 'web3-core-promievent';
-import abi from 'web3-eth-abi';
+import core from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core/src/index.js';
+import Method from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-method/src/index.js';
+import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
+import {subscription as Subscription} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-subscriptions/src/index.js';
+import {formatters} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
+import {errors} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
+import promiEvent from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-promievent/src/index.js';
+import abi from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth-abi/src/index.js';
 
 
 /**

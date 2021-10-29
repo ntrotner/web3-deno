@@ -29,13 +29,13 @@
 
 
 import {version} from '../package.json';
-import core from 'web3-core';
-import Eth from 'web3-eth';
-import Net from 'web3-net';
-import Personal from 'web3-eth-personal';
-import Shh from 'web3-shh';
-import Bzz from 'web3-bzz';
-import utils from 'web3-utils';
+import core from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core/src/index.js';
+import Eth from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth/src/index.js';
+import Net from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-net/src/index.js';
+import Personal from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth-personal/src/index.js';
+import Shh from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-shh/src/index.js';
+import Bzz from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-bzz/src/index.js';
+import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
 
 var Web3 = function Web3() {
     var _this = this;

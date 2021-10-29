@@ -22,9 +22,9 @@
 
 "use strict";
 
-import core from 'web3-core';
-import Method from 'web3-core-method';
-import utils from 'web3-utils';
+import core from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core/src/index.js';
+import Method from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-method/src/index.js';
+import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
 
 
 var Net = function () {

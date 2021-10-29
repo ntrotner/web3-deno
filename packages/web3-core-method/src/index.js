@@ -23,11 +23,11 @@
 
 'use strict';
 
-import {errors} from 'web3-core-helpers';
-import {formatters} from 'web3-core-helpers';
-import utils from 'web3-utils';
-import promiEvent from 'web3-core-promievent';
-import {subscriptions as Subscriptions} from 'web3-core-subscriptions';
+import {errors} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
+import {formatters} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
+import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
+import promiEvent from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-promievent/src/index.js';
+import {subscriptions as Subscriptions} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-subscriptions/src/index.js';
 import EthersTransactionUtils from '@ethersproject/transactions';
 
 var Method = function Method(options) {

@@ -17,6 +17,6 @@
  * @date 2018
  */
 
-import { NetworkBase } from 'web3-core';
+import { NetworkBase } from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core/src/index.js';
 
 export class Network extends NetworkBase {}

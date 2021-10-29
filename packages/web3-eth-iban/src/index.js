@@ -25,7 +25,7 @@
 
 "use strict";
 
-import utils from 'web3-utils';
+import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
 import BigNumber from 'https://jspm.dev/bn.js';
 
 

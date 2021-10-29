@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import { Bzz } from 'web3-bzz';
+import { Bzz } from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-bzz/src/index.js';
 
 // $ExpectType Bzz
 const bzz_empty = new Bzz();

@@ -20,11 +20,11 @@
 
 "use strict";
 
-import Contract from 'web3-eth-contract';
+import Contract from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth-contract/src/index.js';
 import namehash from 'https://jspm.dev/eth-ens-namehash';
-import PromiEvent from 'web3-core-promievent';
-import {formatters} from 'web3-core-helpers';
-import utils from 'web3-utils';
+import PromiEvent from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-promievent/src/index.js';
+import {formatters} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
+import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
 import REGISTRY_ABI from '../resources/ABI/Registry';
 import RESOLVER_ABI from '../resources/ABI/Resolver';
 
