@@ -29,7 +29,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-var contentHash = require('content-hash');
+import contentHash from 'https://jspm.dev/content-hash';
 
 function decode(encoded) {
   var decoded = null;
@@ -105,7 +105,7 @@ function encode(text) {
   return encoded;
 }
 
-module.exports = {
+export default {
   decode: decode,
   encode: encode
 };

@@ -22,7 +22,7 @@
 
 "use strict";
 
-import swarm from "swarm-js";
+import swarm from "https://jspm.dev/swarm-js";
 
 
 var Bzz = function Bzz(provider) {

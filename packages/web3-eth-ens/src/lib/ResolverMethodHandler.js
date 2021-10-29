@@ -20,10 +20,10 @@
 
 "use strict";
 
-var PromiEvent = require('web3-core-promievent');
-var namehash = require('eth-ens-namehash');
-var errors = require('web3-core-helpers').errors;
-var interfaceIds = require('../config').interfaceIds;
+import PromiEvent from 'web3-core-promievent';
+import namehash from 'https://jspm.dev/eth-ens-namehash';
+import {errors} from 'web3-core-helpers';
+import {interfaceIds} from '../config';
 
 /**
  * @param {Registry} registry
@@ -250,4 +250,4 @@ ResolverMethodHandler.prototype.checkInterfaceSupport = async function (resolver
     }
 };
 
-module.exports = ResolverMethodHandler;
+export default ResolverMethodHandler;

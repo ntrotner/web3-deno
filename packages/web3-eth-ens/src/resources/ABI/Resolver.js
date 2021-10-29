@@ -407,4 +407,4 @@ var RESOLVER = [
     }
 ];
 
-module.exports = RESOLVER;
+export default RESOLVER;

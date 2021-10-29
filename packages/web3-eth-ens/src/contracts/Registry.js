@@ -20,13 +20,13 @@
 
 "use strict";
 
-var Contract = require('web3-eth-contract');
-var namehash = require('eth-ens-namehash');
-var PromiEvent = require('web3-core-promievent');
-var formatters = require('web3-core-helpers').formatters;
-var utils = require('web3-utils');
-var REGISTRY_ABI = require('../resources/ABI/Registry');
-var RESOLVER_ABI = require('../resources/ABI/Resolver');
+import Contract from 'web3-eth-contract';
+import namehash from 'https://jspm.dev/eth-ens-namehash';
+import PromiEvent from 'web3-core-promievent';
+import {formatters} from 'web3-core-helpers';
+import utils from 'web3-utils';
+import REGISTRY_ABI from '../resources/ABI/Registry';
+import RESOLVER_ABI from '../resources/ABI/Resolver';
 
 
 /**
@@ -589,4 +589,4 @@ Registry.prototype.setResolver = function (name, address, txConfig, callback) {
     return promiEvent.eventEmitter;
 };
 
-module.exports = Registry;
+export default Registry;
