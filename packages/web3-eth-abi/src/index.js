@@ -24,8 +24,8 @@
 import {Buffer} from 'http://deno.land/x/node_buffer@1.1.0/mod.ts';
 
 import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
-import {AbiCoder as EthersAbiCoder} from '@ethersproject/abi';
-import {ParamType} from '@ethersproject/abi';
+import {AbiCoder as EthersAbiCoder} from 'https://jspm.dev/@ethersproject/abi';
+import {ParamType} from 'https://jspm.dev/@ethersproject/abi';
 var ethersAbiCoder = new EthersAbiCoder(function (type, value) {
     if (type.match(/^u?int/) && !Array.isArray(value) && (!(!!value && typeof value === 'object') || value.constructor.name !== 'BN')) {
         return value.toString();
