@@ -22,8 +22,8 @@
 
 "use strict";
 
-import errors from './errors';
-import formatters from './formatters';
+import errors from './errors.js';
+import formatters from './formatters.js';
 
 export default {
     errors: errors,

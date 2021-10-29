@@ -1,5 +1,5 @@
 import { ETH2Core, BaseAPISchema, ETH2BaseOpts } from 'web3-eth2-core'
-import { DefaultSchema } from './schema'
+import { DefaultSchema } from './schema.ts'
 
 import { ETH2BeaconChain as IETH2BeaconChain } from '../types'
 

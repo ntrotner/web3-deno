@@ -20,12 +20,12 @@
 
 "use strict";
 
-import config from './config';
+import config from './config.js';
 import {formatters} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
-import Registry from './contracts/Registry';
-import ResolverMethodHandler from './lib/ResolverMethodHandler';
-import contenthash from './lib/contentHash';
+import Registry from './contracts/Registry.js';
+import ResolverMethodHandler from './lib/ResolverMethodHandler.js';
+import contenthash from './lib/contentHash.js';
 
 /**
  * Constructs a new instance of ENS

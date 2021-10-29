@@ -25,8 +25,8 @@ import namehash from 'https://jspm.dev/eth-ens-namehash';
 import PromiEvent from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-promievent/src/index.js';
 import {formatters} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
-import REGISTRY_ABI from '../resources/ABI/Registry';
-import RESOLVER_ABI from '../resources/ABI/Resolver';
+import REGISTRY_ABI from '../resources/ABI/Registry.js';
+import RESOLVER_ABI from '../resources/ABI/Resolver.js';
 
 
 /**

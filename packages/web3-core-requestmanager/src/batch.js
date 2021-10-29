@@ -22,7 +22,7 @@
 
 "use strict";
 
-import Jsonrpc from './jsonrpc';
+import Jsonrpc from './jsonrpc.js';
 import {errors} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 
 var Batch = function (requestManager) {

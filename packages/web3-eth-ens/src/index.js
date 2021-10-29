@@ -20,5 +20,5 @@
 
 "use strict";
 
-import ENS from './ENS';
+import ENS from './ENS.js';
 export default ENS;

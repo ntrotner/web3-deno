@@ -28,7 +28,6 @@
 "use strict";
 
 
-import {version} from '../package.json';
 import core from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core/src/index.js';
 import Eth from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-eth/src/index.js';
 import Net from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-net/src/index.js';
