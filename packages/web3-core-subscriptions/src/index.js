@@ -69,7 +69,7 @@ Subscriptions.prototype.buildCall = function() {
 };
 
 
-export default {
-    subscriptions: Subscriptions,
-    subscription: Subscription
+export {
+    Subscriptions,
+    Subscription
 };
