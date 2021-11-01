@@ -23,7 +23,8 @@
 import PromiEvent from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-promievent/src/index.js';
 import namehash from 'https://jspm.dev/eth-ens-namehash';
 import {errors} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
-import {interfaceIds} from '../config.js';
+import config from '../config.js';
+let interfaceIds = config.interfaceIds;
 
 /**
  * @param {Registry} registry
