@@ -29,7 +29,7 @@ var cryp = (typeof global === 'undefined') ? require('https://jspm.dev/crypto-br
 import scrypt from 'https://jspm.dev/scrypt-js';
 import uuid from 'https://jspm.dev/uuid';
 import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
-import helpers from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
+import { * as helpers} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 import TX from 'https://jspm.dev/@ethereumjs/tx'
 import Common from 'https://jspm.dev/@ethereumjs/common';
 import {Hardfork as HardForks} from 'https://jspm.dev/@ethereumjs/common';
