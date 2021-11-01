@@ -30,10 +30,12 @@ import scrypt from 'https://jspm.dev/scrypt-js';
 import uuid from 'https://jspm.dev/uuid';
 import utils from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-utils/src/index.js';
 import helpers from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
-import {TransactionFactory} from 'https://jspm.dev/@ethereumjs/tx';
+import TX from 'https://jspm.dev/@ethereumjs/tx'
 import Common from 'https://jspm.dev/@ethereumjs/common';
 import {Hardfork as HardForks} from 'https://jspm.dev/@ethereumjs/common';
 import ethereumjsUtil from 'https://jspm.dev/ethereumjs-util';
+
+let TransactionFactory = TX.TransactionFactory
 
 var isNot = function(value) {
     return (typeof value === 'undefined') || value === null;
