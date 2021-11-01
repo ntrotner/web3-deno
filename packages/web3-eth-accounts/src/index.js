@@ -791,4 +791,4 @@ function storageAvailable(type) {
     }
 }
 
-export Accounts;
+export { Accounts };
