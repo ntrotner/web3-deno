@@ -70,6 +70,6 @@ Subscriptions.prototype.buildCall = function() {
 
 
 export {
-    Subscriptions,
-    Subscription
+    subscriptions: Subscriptions,
+    subscription: Subscription
 };
