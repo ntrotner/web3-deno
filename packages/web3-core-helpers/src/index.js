@@ -26,7 +26,7 @@ import errors from './errors.js';
 import formatters from './formatters.js';
 
 export {
-    errors: errors,
-    formatters: formatters
+    errors,
+    formatters
 };
 
