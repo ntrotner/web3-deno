@@ -21,7 +21,7 @@
 
 
 import {callbackify} from 'https://deno.land/std@0.63.0/node/util.ts';
-import errors from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
+import {errors} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 import Jsonrpc from './jsonrpc.js';
 import BatchManager from './batch.js';
 import givenProvider from './givenProvider.js';
