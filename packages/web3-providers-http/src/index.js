@@ -24,7 +24,7 @@
 
 import {errors} from 'https://github.com/ntrotner/web3-deno/raw/main/packages/web3-core-helpers/src/index.js';
 
-import {XMLHttpRequest as XHR2} from 'https://jspm.dev/xhr2-cookies'; // jshint ignore: line
+import XMLHttpRequest from 'https://jspm.dev/xhr2-cookies' // jshint ignore: line
 import * as _http2 from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/http';
 import * as _https2 from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/https';
 
@@ -33,6 +33,7 @@ var _https = "default" in _https2 ? _https2.default : _https2;
 
 var http = _http;
 var https = _https;
+var XHR2 = XMLHttpRequest.XMLHttpRequest
 
 
 /**
