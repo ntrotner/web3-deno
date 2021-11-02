@@ -64,7 +64,7 @@ HttpProvider.prototype._prepareRequest = function(){
     var request;
 
     // the current runtime is a browser
-    if (typeof XMLHttpRequest !== 'undefined') {
+    if (false) {
         request = new XMLHttpRequest();
     } else {
         request = new XHR2();
