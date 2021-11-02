@@ -26,7 +26,7 @@ import numberToBN from 'https://jspm.dev/number-to-bn';
 import utf8 from 'https://jspm.dev/utf8';
 import ethereumjsUtil from 'https://jspm.dev/ethereumjs-util';
 import ethereumBloomFilters from 'https://jspm.dev/ethereum-bloom-filters';
-import _buffer from './npm:@jspm/core@2/nodelibs/buffer';
+import _buffer from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/buffer';
 
 var Buffer = _buffer.Buffer;
 
