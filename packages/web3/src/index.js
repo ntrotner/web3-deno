@@ -42,7 +42,6 @@ var Web3 = function Web3() {
     // sets _requestmanager etc
     core.packageInit(this, arguments);
 
-    this.version = version;
     this.utils = utils;
 
     this.eth = new Eth(this);
@@ -63,7 +62,6 @@ var Web3 = function Web3() {
     };
 };
 
-Web3.version = version;
 Web3.utils = utils;
 Web3.modules = {
     Eth: Eth,
