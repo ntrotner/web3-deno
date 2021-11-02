@@ -341,10 +341,6 @@ var toHex = function (value, returnType) {
         return returnType ? 'bool' : value ? '0x01' : '0x00';
     }
 
-    if (Buffer.isBuffer(value)) {
-        return '0x' + value.toString('hex');
-    }
-
     if (typeof value === 'object' && !!value && !isBigNumber(value) && !isBN(value)) {
         return returnType ? 'string' : utf8ToHex(JSON.stringify(value));
     }
@@ -490,9 +486,6 @@ var sha3 = function (value) {
 
     if (isHexStrict(value) && /^0x/i.test((value).toString())) {
         value = ethereumjsUtil.toBuffer(value);
-    } else if (typeof value === 'string') {
-        // Assume value is an arbitrary string
-        value = Buffer.from(value, 'utf-8');
     }
 
     var returnValue = ethereumjsUtil.bufferToHex(ethereumjsUtil.keccak256(value));
