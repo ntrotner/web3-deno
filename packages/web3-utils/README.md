@@ -19,7 +19,7 @@ npm install web3-utils
 ## Usage
 
 ```js
-const Web3Utils = require('https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-utils/src/index.js');
+const Web3Utils = require('https://deno.land/x/web3/packages/web3-utils/src/index.js');
 console.log(Web3Utils);
 {
     sha3: function(){},

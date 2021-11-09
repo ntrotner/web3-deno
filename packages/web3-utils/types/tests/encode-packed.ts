@@ -21,7 +21,7 @@
  */
 
 import BN = require('https://jspm.dev/bn.js');
-import { encodePacked } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-utils/src/index.js';
+import { encodePacked } from 'https://deno.land/x/web3/packages/web3-utils/src/index.js';
 
 // $ExpectType string | null
 encodePacked('234564535', '0xfff23243', true, -10);

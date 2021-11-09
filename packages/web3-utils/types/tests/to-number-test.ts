@@ -21,7 +21,7 @@
  */
 
 import BN = require('https://jspm.dev/bn.js');
-import { toNumber } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-utils/src/index.js';
+import { toNumber } from 'https://deno.land/x/web3/packages/web3-utils/src/index.js';
 
 // $ExpectType number
 toNumber('234');

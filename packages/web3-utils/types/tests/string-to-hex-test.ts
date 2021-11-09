@@ -21,7 +21,7 @@
  */
 
 import BN = require('https://jspm.dev/bn.js');
-import { stringToHex } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-utils/src/index.js';
+import { stringToHex } from 'https://deno.land/x/web3/packages/web3-utils/src/index.js';
 
 // $ExpectType string
 stringToHex('I have 100£');

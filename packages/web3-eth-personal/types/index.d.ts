@@ -18,7 +18,7 @@
  * @date 2018
  */
 
-import * as net from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/../types/net.d.ts';
+import * as net from 'https://deno.land/x/web3/types/net.d.ts';
 import {
   provider, RLPEncodedTransaction, TransactionConfig, BatchRequest, Providers, Extension, 
 } from '../../web3-core/types/index.d.ts';

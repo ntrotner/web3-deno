@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import BN from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/../types/bn.d.ts';
+import BN from 'https://deno.land/x/web3/types/bn.d.ts';
 
 export type Unit =
     | 'noether'

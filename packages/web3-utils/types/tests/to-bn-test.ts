@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import { toBN } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-utils/src/index.js';
+import { toBN } from 'https://deno.land/x/web3/packages/web3-utils/src/index.js';
 
 // $ExpectType BN
 toBN(4);
