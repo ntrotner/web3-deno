@@ -18,9 +18,9 @@
  * @date 2018
  */
 
-import * as net from 'https://jspm.dev/net';
-import BN from 'https://jspm.dev/bn.js';
-import BigNumber from 'https://jspm.dev/bignumber.js';
+import * as net from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/../types/net.d.ts';
+import BN from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/../types/bn.d.ts';
+import BigNumber from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/../types/bignumber.d.ts';
 import {
   HttpProviderBase,
   HttpProviderOptions,

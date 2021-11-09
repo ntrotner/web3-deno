@@ -19,8 +19,8 @@ npm install web3-core-requestmanager
 ## Usage
 
 ```js
-const Web3WsProvider = require('https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-providers-ws/src/index.js');
-const Web3RequestManager = require('https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-requestmanager/src/index.js');
+const Web3WsProvider = require('https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-providers-ws/src/index.js');
+const Web3RequestManager = require('https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-core-requestmanager/src/index.js');
 
 const requestManager = new Web3RequestManager(new Web3WsProvider('ws://localhost:8546'));
 ```

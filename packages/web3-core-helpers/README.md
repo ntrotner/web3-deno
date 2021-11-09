@@ -17,7 +17,7 @@ npm install web3-core-helpers
 ## Usage
 
 ```js
-const helpers = require('https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-helpers/src/index.js');
+const helpers = require('https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-core-helpers/src/index.js');
 
 helpers.formatters;
 helpers.errors;
