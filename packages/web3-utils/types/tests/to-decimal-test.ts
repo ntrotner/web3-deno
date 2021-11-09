@@ -20,8 +20,8 @@
  * @date 2018
  */
 
-import BN = require('bn.js');
-import {toDecimal} from 'web3-utils';
+import BN = require('https://jspm.dev/bn.js');
+import { toDecimal } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-utils/src/index.js';
 
 // $ExpectType number
 toDecimal('232');

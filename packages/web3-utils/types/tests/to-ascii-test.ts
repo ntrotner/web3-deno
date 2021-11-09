@@ -20,8 +20,8 @@
  * @date 2018
  */
 
-import BN = require('bn.js');
-import {toAscii} from 'web3-utils';
+import BN = require('https://jspm.dev/bn.js');
+import { toAscii } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-utils/src/index.js';
 
 // $ExpectType string
 toAscii('0x4920686176652031303021');

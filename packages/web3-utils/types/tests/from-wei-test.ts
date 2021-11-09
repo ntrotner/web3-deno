@@ -20,8 +20,8 @@
  * @date 2018
  */
 
-import BN = require('bn.js');
-import {fromWei} from 'web3-utils';
+import BN = require('https://jspm.dev/bn.js');
+import { fromWei } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-utils/src/index.js';
 
 const bigNumber = new BN(3);
 
