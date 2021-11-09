@@ -19,8 +19,8 @@
  * @author Josh Stevens <joshstevens19@hotmail.co.uk>
  * @date 2018
  */
-import * as http from 'http';
-import * as https from 'https';
+import * as http from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/http';
+import * as https from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/https';
 
 import { HttpProviderBase, JsonRpcResponse } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-helpers/types/index.d.ts';
 

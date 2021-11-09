@@ -29,7 +29,7 @@ import {
   JsonRpcResponse,
 } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-helpers/types/index.d.ts';
 import { Method } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-method/types/index.d.ts';
-import BN = require('bn.js');
+import BN = require('https://jspm.dev/bn.js');
 import BigNumber from 'bignumber.js';
 
 export interface SignedTransaction {

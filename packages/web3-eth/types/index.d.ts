@@ -48,7 +48,7 @@ import { Personal } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/m
 import { Network } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-net/types/index.d.ts';
 import { AbiItem } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-utils/types/index.d.ts';
 import { BigNumber } from 'bignumber.js';
-import BN = require('bn.js');
+import BN = require('https://jspm.dev/bn.js');
 
 export {
   TransactionConfig,
