@@ -19,9 +19,9 @@
  * @date 2018
  */
 
-import * as net from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/../types/net.d.ts';
-import { BigNumber } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/../types/bignumber.d.ts';
-import BN from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/../types/bn.d.ts';
+import * as net from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/types/net.d.ts';
+import { BigNumber } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/types/bignumber.d.ts';
+import BN from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/types/bn.d.ts';
 import {
   BatchRequest,
   Extension,

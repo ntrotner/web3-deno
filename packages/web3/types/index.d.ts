@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import * as net from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/../types/net.d.ts';
+import * as net from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/types/net.d.ts';
 import { Bzz } from '../../web3-bzz/types/index.d.ts';
 import {
   BatchRequest, provider, Providers, Extension, 
