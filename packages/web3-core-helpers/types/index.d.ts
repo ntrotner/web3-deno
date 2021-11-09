@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import * as net from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/../types/net.d.ts';
+import * as net from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/types/net.d.ts';
 import * as http from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/http';
 import * as https from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/https';
 
