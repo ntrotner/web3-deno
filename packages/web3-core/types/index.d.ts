@@ -19,6 +19,8 @@
  */
 
 import * as net from 'https://jspm.dev/net';
+import BN from 'https://jspm.dev/bn.js';
+import BigNumber from 'https://jspm.dev/bignumber.js';
 import {
   HttpProviderBase,
   HttpProviderOptions,
@@ -27,10 +29,8 @@ import {
   WebsocketProviderOptions,
   JsonRpcPayload,
   JsonRpcResponse,
-} from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-helpers/types/index.d.ts';
-import { Method } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-method/types/index.d.ts';
-import BN from 'https://jspm.dev/bn.js';
-import BigNumber from 'https://jspm.dev/bignumber.js';
+} from '../../web3-core-helpers/types/index.d.ts';
+import { Method } from '../../web3-core-method/types/index.d.ts';
 
 export interface SignedTransaction {
     messageHash?: string;

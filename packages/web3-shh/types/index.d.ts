@@ -20,8 +20,8 @@
 import * as net from 'https://jspm.dev/net';
 import {
   BatchRequest, provider, Providers, Extension, 
-} from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core/types/index.d.ts';
-import { Network } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-net/types/index.d.ts';
+} from '../../web3-core/types/index.d.ts';
+import { Network } from '../../web3-net/types/index.d.ts';
 
 export class Shh {
   constructor();

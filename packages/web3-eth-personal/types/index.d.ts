@@ -21,7 +21,7 @@
 import * as net from 'https://jspm.dev/net';
 import {
   provider, RLPEncodedTransaction, TransactionConfig, BatchRequest, Providers, Extension, 
-} from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core/types/index.d.ts';
+} from '../../web3-core/types/index.d.ts';
 
 export class Personal {
   constructor();
