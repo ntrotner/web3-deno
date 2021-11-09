@@ -20,7 +20,7 @@
  * @date 2019
  */
 
-import { Subscriptions, Subscription } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-subscriptions/src/index.js';
+import { Subscriptions, Subscription } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-core-subscriptions/src/index.js';
 
 const subscriptions = new Subscriptions({
   name: '',

@@ -27,13 +27,13 @@
 
 'use strict';
 
-import core from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core/src/index.js';
-import Eth from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-eth/src/index.js';
-import Net from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-net/src/index.js';
-import Personal from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-eth-personal/src/index.js';
-import Shh from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-shh/src/index.js';
-import Bzz from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-bzz/src/index.js';
-import utils from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-utils/src/index.js';
+import core from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-core/src/index.js';
+import Eth from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-eth/src/index.js';
+import Net from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-net/src/index.js';
+import Personal from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-eth-personal/src/index.js';
+import Shh from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-shh/src/index.js';
+import Bzz from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-bzz/src/index.js';
+import utils from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-utils/src/index.js';
 
 const Web3 = function Web3() {
   const _this = this;

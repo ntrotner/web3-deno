@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import { Info, Notification, Shh } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-shh/src/index.js';
+import { Info, Notification, Shh } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-shh/src/index.js';
 
 // $ExpectType Shh
 const shh_empty = new Shh();

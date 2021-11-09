@@ -20,7 +20,7 @@
  * @date 2017
  */
 
-import requestManager from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-requestmanager/src/index.js';
+import requestManager from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-core-requestmanager/src/index.js';
 
 import extend from './extend.js';
 

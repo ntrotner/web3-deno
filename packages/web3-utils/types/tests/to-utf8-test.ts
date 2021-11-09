@@ -21,7 +21,7 @@
  */
 
 import BN = require('https://jspm.dev/bn.js');
-import { toUtf8 } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-utils/src/index.js';
+import { toUtf8 } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-utils/src/index.js';
 
 // $ExpectType string
 toUtf8('0x49206861766520313030e282ac');

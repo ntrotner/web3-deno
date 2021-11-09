@@ -17,11 +17,11 @@
  * @date 2018
  */
 
-import { TransactionRevertInstructionError } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-helpers/src/index.js';
-import { TransactionReceipt } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core/src/index.js';
-import { Contract } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-eth-contract/src/index.js';
-import { Ens, ContentHash } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-eth-ens/src/index.js';
-import { Eth } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-eth/src/index.js';
+import { TransactionRevertInstructionError } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-core-helpers/src/index.js';
+import { TransactionReceipt } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-core/src/index.js';
+import { Contract } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-eth-contract/src/index.js';
+import { Ens, ContentHash } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-eth-ens/src/index.js';
+import { Eth } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-eth/src/index.js';
 
 const ens = new Ens(new Eth('http://localhost:8545'));
 

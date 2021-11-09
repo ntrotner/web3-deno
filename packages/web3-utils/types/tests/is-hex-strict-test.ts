@@ -21,7 +21,7 @@
  */
 
 import BN = require('https://jspm.dev/bn.js');
-import { isHexStrict } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-utils/src/index.js';
+import { isHexStrict } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/web3-utils/src/index.js';
 
 // $ExpectType boolean
 isHexStrict('0xc1912');

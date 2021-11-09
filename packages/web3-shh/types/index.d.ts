@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import * as net from 'https://jspm.dev/net';
+import * as net from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/../types/net.d.ts';
 import {
   BatchRequest, provider, Providers, Extension, 
 } from '../../web3-core/types/index.d.ts';
