@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import * as net from 'https://jspm.dev/net';
+import * as net from 'net';
 import { Bzz } from '../../web3-bzz/types/index.d.ts';
 import {
   BatchRequest, provider, Providers, Extension, 

@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import * as net from 'https://jspm.dev/net';
+import * as net from 'net';
 import * as http from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/http';
 import * as https from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/https';
 

@@ -19,9 +19,9 @@
  * @date 2018
  */
 
-import * as net from 'https://jspm.dev/net';
-import { BigNumber } from 'https://jspm.dev/bignumber.js';
-import BN from 'https://jspm.dev/bn.js';
+import * as net from 'net';
+import { BigNumber } from 'bignumber.js';
+import BN from 'bn.js';
 import {
   BatchRequest,
   Extension,

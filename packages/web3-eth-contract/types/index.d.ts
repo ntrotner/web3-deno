@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import BN from 'https://jspm.dev/bn.js';
+import BN from 'bn.js';
 import {
   Common, PromiEvent, provider, hardfork, chain, BlockNumber, PastLogsOptions, LogsOptions, 
 } from '../../web3-core/types/index.d.ts';

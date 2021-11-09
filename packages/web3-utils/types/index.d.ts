@@ -20,7 +20,7 @@
  * @date 2018
  */
 
-import BN from 'https://jspm.dev/bn.js';
+import BN from 'bn.js';
 
 export type Unit =
     | 'noether'

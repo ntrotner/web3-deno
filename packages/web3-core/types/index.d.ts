@@ -18,9 +18,9 @@
  * @date 2018
  */
 
-import * as net from 'https://jspm.dev/net';
-import BN from 'https://jspm.dev/bn.js';
-import BigNumber from 'https://jspm.dev/bignumber.js';
+import * as net from 'net';
+import BN from 'bn.js';
+import BigNumber from 'bignumber.js';
 import {
   HttpProviderBase,
   HttpProviderOptions,

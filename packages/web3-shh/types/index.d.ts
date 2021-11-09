@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import * as net from 'https://jspm.dev/net';
+import * as net from 'net';
 import {
   BatchRequest, provider, Providers, Extension, 
 } from '../../web3-core/types/index.d.ts';
