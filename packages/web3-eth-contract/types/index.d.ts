@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import BN = require('bn.js');
+import BN = require('https://jspm.dev/bn.js');
 import {
   Common, PromiEvent, provider, hardfork, chain, BlockNumber, PastLogsOptions, LogsOptions, 
 } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core/types/index.d.ts';
