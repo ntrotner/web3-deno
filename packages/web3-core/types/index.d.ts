@@ -18,7 +18,7 @@
  * @date 2018
  */
 
-import * as net from 'net';
+import * as net from 'https://jspm.dev/net';
 import {
   HttpProviderBase,
   HttpProviderOptions,
@@ -29,8 +29,8 @@ import {
   JsonRpcResponse,
 } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-helpers/types/index.d.ts';
 import { Method } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-method/types/index.d.ts';
-import BN = require('https://jspm.dev/bn.js');
-import BigNumber from 'bignumber.js';
+import BN from 'https://jspm.dev/bn.js';
+import BigNumber from 'https://jspm.dev/bignumber.js';
 
 export interface SignedTransaction {
     messageHash?: string;
