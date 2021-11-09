@@ -1,4 +1,3 @@
-/// <reference path="../types/index.d.ts" />
 /*
     This file is part of web3.js.
 
