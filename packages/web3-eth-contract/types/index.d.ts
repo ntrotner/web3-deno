@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import BN from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages/../types/bn.d.ts';
+import BN from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/types/bn.d.ts';
 import {
   Common, PromiEvent, provider, hardfork, chain, BlockNumber, PastLogsOptions, LogsOptions, 
 } from '../../web3-core/types/index.d.ts';
