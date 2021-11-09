@@ -20,6 +20,8 @@
  */
 
 import * as net from 'https://jspm.dev/net';
+import { BigNumber } from 'https://jspm.dev/bignumber.js';
+import BN from 'https://jspm.dev/bn.js';
 import {
   BatchRequest,
   Extension,
@@ -37,18 +39,16 @@ import {
   BlockNumber,
   LogsOptions,
   PastLogsOptions,
-} from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core/types/index.d.ts';
-import { Subscription } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-subscriptions/types/index.d.ts';
-import { AbiCoder } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-eth-abi/types/index.d.ts';
-import { Accounts } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-eth-accounts/types/index.d.ts';
-import { Contract, ContractOptions } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-eth-contract/types/index.d.ts';
-import { Ens } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-eth-ens/types/index.d.ts';
-import { Iban } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-eth-iban/types/index.d.ts';
-import { Personal } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-eth-personal/types/index.d.ts';
-import { Network } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-net/types/index.d.ts';
-import { AbiItem } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-utils/types/index.d.ts';
-import { BigNumber } from 'https://jspm.dev/bignumber.js';
-import BN from 'https://jspm.dev/bn.js'
+} from '$../../web3-core/types/index.d.ts';
+import { Subscription } from '$../../web3-core-subscriptions/types/index.d.ts';
+import { AbiCoder } from '$../../web3-eth-abi/types/index.d.ts';
+import { Accounts } from '$../../web3-eth-accounts/types/index.d.ts';
+import { Contract, ContractOptions } from '$../../web3-eth-contract/types/index.d.ts';
+import { Ens } from '$../../web3-eth-ens/types/index.d.ts';
+import { Iban } from '$../../web3-eth-iban/types/index.d.ts';
+import { Personal } from '$../../web3-eth-personal/types/index.d.ts';
+import { Network } from '$../../web3-net/types/index.d.ts';
+import { AbiItem } from '$../../web3-utils/types/index.d.ts';
 
 export {
   TransactionConfig,
@@ -58,7 +58,7 @@ export {
   hardfork,
   Common,
   chain,
-} from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core/types/index.d.ts';
+} from '$../../web3-core/types/index.d.ts';
 
 export class Eth {
   constructor();

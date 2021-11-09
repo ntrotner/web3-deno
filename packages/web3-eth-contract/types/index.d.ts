@@ -17,11 +17,11 @@
  * @date 2018
  */
 
-import BN = require('https://jspm.dev/bn.js');
+import BN from 'https://jspm.dev/bn.js';
 import {
   Common, PromiEvent, provider, hardfork, chain, BlockNumber, PastLogsOptions, LogsOptions, 
-} from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core/types/index.d.ts';
-import { AbiItem } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-utils/types/index.d.ts';
+} from '$../../web3-core/types/index.d.ts';
+import { AbiItem } from '$../../web3-utils/types/index.d.ts';
 
 // TODO: Add generic type!
 export class Contract {

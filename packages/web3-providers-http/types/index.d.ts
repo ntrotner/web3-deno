@@ -22,7 +22,7 @@
 import * as http from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/http';
 import * as https from 'https://jspm.dev/npm:@jspm/core@2/nodelibs/https';
 
-import { HttpProviderBase, JsonRpcResponse } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-core-helpers/types/index.d.ts';
+import { HttpProviderBase, JsonRpcResponse } from '$../../web3-core-helpers/types/index.d.ts';
 
 export interface HttpHeader {
     name: string;
