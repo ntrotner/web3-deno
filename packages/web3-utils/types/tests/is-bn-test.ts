@@ -20,8 +20,8 @@
  * @date 2018
  */
 
-import BN = require('bn.js');
-import {isBN} from 'web3-utils';
+import BN = require('https://jspm.dev/bn.js');
+import { isBN } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-utils/src/index.js';
 
 // $ExpectType boolean
 isBN(7);
