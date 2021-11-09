@@ -19,7 +19,7 @@
  * @date 2018
  */
 
-import * as net from 'net';
+import * as net from 'https://jspm.dev/net';
 import {
   BatchRequest,
   Extension,
@@ -47,8 +47,9 @@ import { Iban } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/
 import { Personal } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-eth-personal/types/index.d.ts';
 import { Network } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-net/types/index.d.ts';
 import { AbiItem } from 'https://raw.githubusercontent.com/ntrotner/web3-deno/main/packages//web3-utils/types/index.d.ts';
-import { BigNumber } from 'bignumber.js';
+import { BigNumber } from 'https://jspm.dev/bignumber.js';
 import BN = require('https://jspm.dev/bn.js');
+import BN from 'https://jspm.dev/bn.js'
 
 export {
   TransactionConfig,
